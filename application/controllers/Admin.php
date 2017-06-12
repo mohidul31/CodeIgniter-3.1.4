@@ -5,7 +5,10 @@ class Admin extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('dashboard');
+		$this->load->view('view_header');
+		$this->load->view('view_menu');
+		$this->load->view('view_dashboard');
+		$this->load->view('view_footer');
 	}
 
 }
